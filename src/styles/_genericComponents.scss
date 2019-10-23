@@ -1,0 +1,96 @@
+.title {
+    color: $theme-color1;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+.subTitle{
+    color: $theme-color2;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+.elementTitle{
+    color: $theme-color2;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px;
+}
+.elementKey{
+    color: $theme-color2;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.elementValue{
+    color: $theme-color1;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.error{
+    font-size: small;
+      color: #ff4319;
+      font-weight: bold;
+      text-align: left;
+}
+
+.select {
+    border: 1px solid $theme-color1;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    background-color: white;
+    height: 3.2rem;
+    flex: 0 0 45%;
+  }
+  
+  .select *{
+    border-radius:15px;
+    width: 10%;
+  }
+  
+  .text-input {
+      border: 1px solid gray;
+      border-radius: 5px;
+      margin: 20px auto 0 auto;
+      padding: 15px 0 15px 10px;
+      font-size: 1.2rem;
+      width: 100%;
+      display: block;
+  }
+  
+  .button {
+    background: $theme-color1;
+    border: 1px solid white;
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .button:disabled {
+    background: gray;
+    color: white;
+    cursor: context-menu;
+  }
+
+  .button:hover{
+      color: white;
+  }
+
+  .backArrow{
+      cursor: pointer;
+  }
+  

@@ -1,0 +1,31 @@
+.subscriptionContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subscriptionParentContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $theme-color1;
+    padding: 21px;
+    border-radius: 5px;
+}
+
+.subscriptionStageContainer{
+    padding: 30px;
+    text-align: left;
+    @media (min-width: 1025px)  {
+        width: 400px;
+    }
+}
+
+.elementContainer{
+    margin-bottom: 15px;
+}
+
+.creditCardExpiryContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
