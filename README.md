@@ -1,6 +1,3 @@
-#VINAY_SRIDHARA COMMENTS ON THE PROJECT "moberries-Frontend task"
-
-# LIVE URL : https://moberries-frontend-task.herokuapp.com/
 # Please use test card number 4000 0200 0000 0000 for testing
 
 # To view the output in the development mode, follow the steps as given below:
@@ -31,7 +28,3 @@
 - Credit card number with valid format has to be entered. Use 4000 0200 0000 0000 for testing
 - Next user can see the overall summary. Once terms and coditions are agreed, user can submit.
 - All the state values are finally logged to console
-
-# NOTE: 
-- This project could have been done using Redux for state management. 
-- As there was no complex state values involved, context-api was decided to use. 
